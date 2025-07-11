@@ -1,22 +1,25 @@
-# Cryptography-using-Hill-Cipher-method
+# 🔐 Hill Cipher - Cryptography Project (Python)
 
-This project implements the **Hill Cipher algorithm** for encrypting and decrypting text using matrix operations in Python. It is a classical cipher that uses linear algebra concepts to secure messages.
+This project demonstrates how to encrypt and decrypt text using the **Hill Cipher algorithm**, implemented in Python using matrix operations and ASCII mapping.
 
-## What is Hill Cipher?
+It supports all standard characters: uppercase, lowercase, numbers, symbols, and even space — not just alphabets. The encryption and decryption both use a 2x2 cipher key matrix and modular arithmetic.
 
-The **Hill Cipher** is a polygraphic substitution cipher based on linear algebra. It takes a group of letters and encrypts them using a matrix multiplication modulo 26.
+---
 
-- Uses a **key matrix** (e.g., 2x2 or 3x3)
-- Only works when the matrix is **invertible modulo 26**
+## 📌 How It Works
 
-## Features
+- Converts all characters in the message into numeric values based on a custom ASCII dictionary (0–95)
+- Pads the message if its length is odd
+- Encrypts the message using matrix multiplication with a cipher key (2x2)
+- Applies mod with dictionary size to keep values within range
+- Decrypts using modular inverse of the determinant and matrix inverse
 
-- Encryption of plaintext using Hill Cipher
-- Decryption using matrix inverse
-- Clean modular Python code
-- User input support for plaintext and key
-- Handles basic validation (e.g., key invertibility)
+---
 
+## ▶️ How to Run
 
+1. Make sure Python is installed
+2. Run the script:
 
-
+```bash
+python hill_cipher.py
