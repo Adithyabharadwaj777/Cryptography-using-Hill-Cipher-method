@@ -2,7 +2,7 @@
 
 This project demonstrates how to encrypt and decrypt text using the **Hill Cipher algorithm**, implemented in Python using matrix operations and ASCII mapping.
 
-It supports all standard characters: uppercase, lowercase, numbers, symbols, and even space — not just alphabets. The encryption and decryption both use a 2x2 cipher key matrix and modular arithmetic.
+It supports all standard characters: uppercase, lowercase, numbers, symbols, and even space, not just alphabets. The encryption and decryption both use a 2x2 cipher key matrix and modular arithmetic.
 
 ---
 
