@@ -1,4 +1,4 @@
-# 🔐 Hill Cipher - Cryptography Project (Python)
+#  Hill Cipher - Cryptography Project (Python)
 
 This project demonstrates how to encrypt and decrypt text using the **Hill Cipher algorithm**, implemented in Python using matrix operations and ASCII mapping.
 
@@ -6,7 +6,7 @@ It supports all standard characters: uppercase, lowercase, numbers, symbols, and
 
 ---
 
-## 📌 How It Works
+##  How It Works
 
 - Converts all characters in the message into numeric values based on a custom ASCII dictionary (0–95)
 - Pads the message if its length is odd
@@ -16,7 +16,7 @@ It supports all standard characters: uppercase, lowercase, numbers, symbols, and
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 1. Make sure Python is installed
 2. Run the script:
